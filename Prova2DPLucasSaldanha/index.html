@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Controle de contas</title>
+         <meta charset="utf-8">
+
+         <link rel="stylesheet" href="estilo.css">
+
+    </head>
+
+    <body>
+
+        <div class="content">
+
+        <h1>Controle de Contas</h1>
+
+        <div class="fields">
+            <p>Descrição  <input type="text" id="descricao" ></p>
+        </div>
+        
+        <div class="fields">
+            <p>Valor  <input type="number" id="valor" ></p>
+        </div>
+        
+        <div class="fields">
+            <p>Data de Vencimento  <input type="text" id="data"  ></p>
+        </div>
+
+        <div class="fields">
+            <p>Tipo  <input input type="text" id="tipo" ></p>
+        </div>
+
+        <input type="button" id="addConta" value="Salvar">
+
+        <h2>Contas Cadastradas</h2>
+
+        <table id= contas>
+            <tr>
+                <th>Descrição</th>
+                <th>Valor</th>
+                <th>Data de Vencimento</th>
+                <th>Tipo</th>   
+            </tr>
+
+        </table>
+
+      </div>
+
+      <script src="java.js"></script>
+
+    </body>
+</html>
